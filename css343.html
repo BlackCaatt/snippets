@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>text-align</title>
+  <style>
+   div {
+    border: 1px solid black; /* Параметры рамки */
+    padding: 5px; /* Поля вокруг текста */
+    margin-bottom: 5px; /* Отступ снизу */
+   }
+   #left { text-align: left; }
+   #right { text-align: right; }
+   #center1 { text-align: center; }
+   .content {
+    width: 75%; /* Ширина слоя */
+    background: #fc0; /* Цвет фона */
+   }
+  </style>
+ </head>
+ <body>
+  <div id="left"><div class="content">Выравнивание по левому краю</div></div>
+  <div id="center1">
+    <div class="content">Выравнивание по центру</div>
+  </div>
+  <div id="right"><div class="content">Выравнивание по правому краю</div></div>
+ </body>
+</html>
